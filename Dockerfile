@@ -1,5 +1,6 @@
 FROM --platform=$TARGETOS/$TARGETARCH debian:bullseye-slim as base
 LABEL author='Matteo Krans Dusic' maintainer='matteokrantz@gmail.com'
+LABEL org.opencontainers.image.source https://github.com/8char/gdev
 
 RUN dpkg --add-architecture i386 \
     && apt update \

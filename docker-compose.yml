@@ -91,6 +91,7 @@ services:
 
   gameserver:
     container_name: dbg_game
+    image: ghcr.io/8char/gdev:latest
     build: .
     volumes:
       - steam-cache:/home/container/steam_cache

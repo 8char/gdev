@@ -15,6 +15,7 @@
 !entrypoint.sh
 !matomo.conf
 !.pre-commit-config.yaml
+!.editorconfig
 
 # Allow our tracked folders
 !/addons/

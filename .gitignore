@@ -1,0 +1,40 @@
+# Ignore all files, "garrysmod" has a bunch of
+# junk files which are not useful to us
+/*
+
+# Repo Configuration
+!README.md
+!GUIDELINES.md
+!CHANGELOG.md
+!.git*
+!LICENSE
+!/.husky/
+!/.vscode/
+!Dockerfile
+!docker-compose.yml
+!entrypoint.sh
+!matomo.conf
+
+# Allow our tracked folders
+!/addons/
+!/content/
+!/cfg/
+!/gamemodes/
+!/html/
+!/lua/
+!/maps/
+!/data/.gitkeep
+
+# Junk src engine files that exist
+maps/**/*.nav
+maps/**/*.ain
+maps/**/*.txt
+maps/**/*.lmp
+maps/**/*.ztmp
+
+cfg/**/*.vdf
+
+# Exclude default gmod files we don't need
+gamemodes/terrortown/
+maps/gm_construct*
+maps/gm_flatgrass*
